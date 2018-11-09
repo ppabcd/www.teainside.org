@@ -1,0 +1,172 @@
+@font-face {
+  font-family: "sawarabi_minchomedium";
+  src: url("../fonts/sawarabi-mincho-medium-webfont.woff2") format("woff2"),
+    url("../fonts/sawarabi-mincho-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cf {
+  clear: both;
+}
+
+body {
+  font-family: sawarabi_minchomedium;
+  background-color: #ecf0f1;
+}
+
+header {
+  position: fixed;
+  background-color: white;
+  right: 0;
+  left: 0;
+  top: 0;
+  padding: 5px;
+  font-weight: bold;
+  z-index: 10;
+}
+
+.branding-logo img {
+  width: 140px;
+  margin-left: 10px;
+  padding: 5px;
+  float: left;
+}
+
+header .menu {
+  margin-top: 10px;
+  float: right;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+header .menu ul li {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  padding: 5px;
+}
+
+header .menu ul a {
+  color: #2c3e50;
+}
+
+header .menu ul a li:hover {
+  border-radius: 10px 10px 0 0;
+  background-color: #ecf0f1;
+  border-bottom: #d35400 solid 2px;
+}
+
+.container {
+  margin: 100px auto 60px;
+  text-align: center;
+  scroll-behavior: auto;
+}
+
+/* home */
+.home {
+  background-color: #ecf0f1;
+  height: 190px;
+  color: #2c3e50;
+}
+
+.home img {
+  width: 450px;
+  opacity: 0.6;
+  border-radius: 100%;
+  transition: 1s;
+}
+
+.home img:hover {
+  opacity: 0.8;
+  border-radius: 0;
+}
+
+/* about */
+.about {
+  background-color: white;
+  height: 200px;
+  padding: 100px 200px 10px;
+}
+
+.about h2 {
+  margin-bottom: 30px;
+}
+
+/* activities */
+.activities {
+  background-color: #ecf0f1;
+  height: 260px;
+  padding: 100px 200px;
+  text-align: justify;
+}
+
+.activities h2 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.activities li {
+  margin: 10px;
+}
+
+/* partner */
+.partner {
+  background-color: white;
+  height: 300px;
+  padding: 120px 100px 50px;
+}
+
+.partner h2 {
+  margin-bottom: 30px;
+}
+
+.partner ul li {
+  display: inline-block;
+}
+
+.partner ul a li {
+  color: #d35400;
+  border: #d35400 solid 2px;
+  text-align: center;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 20px;
+  transition: 0.8s;
+}
+
+.partner ul a li:hover {
+  color: white;
+  background-color: #d35400;
+}
+
+/* social */
+.social {
+  background-color: #ecf0f1;
+  height: 200px;
+  padding: 100px 100px 20px;
+}
+
+.social h2 {
+  margin-bottom: 30px;
+}
+
+.social .box-icon {
+  display: inline-block;
+  margin: 10px;
+}
+
+.social .box-icon a {
+  color: #2c3e50;
+  text-decoration: none;
+  transition: 0.8s;
+}
+
+.social .box-icon a:hover {
+  color: #d35400;
+}
