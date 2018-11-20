@@ -36,10 +36,10 @@
         <div class="menu">
           <ul>
             <a href="./"><li>Home</li></a>
-            <a href="#about"><li>About</li></a>
-            <a href="#activities"><li>Activities</li></a>
+            <a href="#about"><li>Tentang Kami</li></a>
+            <a href="#activities"><li>Kegiatan</li></a>
             <a href="#partner"><li>Partner</li></a>
-            <a href="#social"><li>Social</li></a>
+            <a href="#social"><li>Sosial Media</li></a>
           </ul>
         </div>
       </nav>
@@ -50,7 +50,7 @@
 
       <!-- About -->
       <div class="about" id="about">
-        <h2>Abou Us</h2>
+        <h2>Tentang Kami</h2>
         <p>
           Tea Inside adalah komunitas programmer yang bertujuan menyadarkan
           masyarakat Indonesia akan pentingnya kemajuan teknologi.
@@ -59,7 +59,7 @@
 
       <!-- Activities -->
       <div class="activities" id="activities">
-        <h2>Our Activities</h2>
+        <h2>Kegiatan Kami</h2>
         <ul>
           <li>
             Mempelajari bahasa pemrograman dan mengembangkan berbagai macam
