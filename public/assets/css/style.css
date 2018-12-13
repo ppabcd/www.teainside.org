@@ -1,0 +1,124 @@
+* {
+    padding : 0;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+img{
+    width: 100%;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+	position: fixed;
+	width : 100%;
+	box-shadow: 1px 2px 3px rgba(100,100,100,0.2);
+	z-index: 9999;
+    color : #333;
+    background-color: #fff;
+}
+header .container {
+	display: flex;
+	align-items: center;
+}
+header .container .item.logo{
+    background-image: url('../img/tea_inside.jpg');
+    width : 140px;
+    height: 20px;
+	background-repeat: no-repeat;
+	background-size: cover;
+    margin-right: 20px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+header .container .item{
+    padding: 20px;
+    border-bottom: 2px solid transparent;
+}
+header .container .item:hover{
+    border-bottom: 2px solid #ecf0f1;
+    transition: all 0.2s ease-out;
+}
+header .container .right{
+    margin-left: auto;
+}
+
+.cover{
+    position: relative;
+    height: 450px;
+    width: 100%;
+    overflow: hidden;
+}
+.cover img{
+    margin-top: -50px;
+}
+.cover .bg{
+    position: absolute;
+    z-index: 100;
+    background-color: rgba(236,240,241, 0.7);
+    width: 100%;
+    height: 100%;
+}
+.cover .wrapper-cover-content{
+    z-index: 100;
+    top: 50%;
+    position: absolute; 
+    left: 50%;
+}
+.cover .cover-content{
+    position: relative; 
+    left: -50%;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    color: #333;
+}
+
+.content{
+    padding: 80px;
+}
+.content .content-data h2{
+    text-align: center;
+}
+
+.content .content-data h2{
+    font-weight: 1.8em;
+    margin-bottom: 20px;
+}
+.content .content-data p{
+    font-weight: 1.2em;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 30px;
+    text-align: justify;
+}
+/* Color */
+.content.odd{
+    background-color: #fff;
+}
+.content.even{
+    background-color: #ecf0f1;
+}
+
+.flex-wrapper{
+    /* display: flex; */
+    height: 80%;
+    text-align: center;
+}
+.flex-wrapper .flex-area .item.group{
+    border: 2px solid #d35400;
+    color: #d35400;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 2px;
+}
+.flex-wrapper .flex-area .item.group:hover{
+    color: #fff;
+    background-color: #d35400;
+}
